@@ -42,5 +42,5 @@ with open("/Users/axelhojmark/Dropbox/CODE/AOC/input.txt", 'r') as f:
                 actualPossibilities[i] += 1
     combinations = reduce(lambda x, y: x*y, actualPossibilities)
     print(combinations)
-
+ 
 print("**** Runtime: {} seconds ****".format(round(time.time() - startTime, 2)))
