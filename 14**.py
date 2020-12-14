@@ -2,7 +2,7 @@ import time
 startTime = time.time()
 
 permutations = dict()
-// Jeg checkede filen og kunne se at der maks forekom 9 "floating bits". Derfor er 2**9 grænsen.
+# Jeg checkede filen og kunne se at der maks forekom 9 "floating bits". Derfor er 2**9 grænsen.
 for i in range(2**9):
     permutations[i] = bin(i)[2:]
 
